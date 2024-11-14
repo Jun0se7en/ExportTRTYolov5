@@ -59,7 +59,7 @@ This repo will help you export Yolov5 model to TensorRT on Jetson board
     res, t = model.infer(inf_image)
     ```
 
-## Pretrained Model
+## Pretrained Model For UIT Car Racing 2024
 
 [Pretrained](https://drive.google.com/file/d/1Cg-jAYYiG2T1N0tlNaRi9KnGBbo0oEJm/view?usp=sharing)
 
