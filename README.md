@@ -60,7 +60,7 @@ This repo will help you export Yolov5 model to TensorRT on Jetson board
 
 ## Pretrained Model
 
-[Pretrained]([https://drive.google.com/file/d/1vQOXEvuzBbg69ytEgb7fxF-KccDPy10S/view?usp=sharing](https://drive.google.com/file/d/1Cg-jAYYiG2T1N0tlNaRi9KnGBbo0oEJm/view?usp=sharing))
+[Pretrained](https://drive.google.com/file/d/1Cg-jAYYiG2T1N0tlNaRi9KnGBbo0oEJm/view?usp=sharing)
 
 ## License
 
