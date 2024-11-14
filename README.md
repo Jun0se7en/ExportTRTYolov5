@@ -54,6 +54,7 @@ This repo will help you export Yolov5 model to TensorRT on Jetson board
             "microwave", "oven", "toaster", "sink", "refrigerator", "book", "clock", "vase", "scissors", "teddy bear",
     model = YoloTRT(engine=engine, conf=conf_thres, categories=classes, iou=iou_thres, debugging=True)
     image = cv2.imread('test.img')
+    # Resize your image to the input you have used to train
     image = cv2.resize(image, (640, 640))
     inf_image = image.copy()
     # res will contain class, bb; t will be inferenced time; Your input image will have bb drawn on it so use copy before inference
