@@ -27,7 +27,7 @@ This repo will help you export Yolov5 model to TensorRT on Jetson board
     cp ../../yolov5s.wts .
     cmake ..
     make
-    # Build engine, remember to change the letter at last that stand for nano (n), large (l), small (s), medium (m) of the model you have trained
+    # Build engine, remember to change the letter at last that stand for nano (n), small (s), medium (m), large (l), extra_large(x) of the model you have trained
     ./yolov5_det -s yolov5s.wts yolov5s.engine s
     ```
 
