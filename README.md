@@ -36,6 +36,7 @@ This repo will help you export Yolov5 model to TensorRT on Jetson board
     ```bash
     # Import YoloTRT from yoloDet.py included in this repo
     from yoloDet import YoloTRT
+    import cv2
     # Directory to model
     engine = 'yolov5n.engine'
     # Conf thres for each class
